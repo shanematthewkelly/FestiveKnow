@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shanekelly.example.festiveknow">
+
+    <application
+        android:name="com.shanekelly.example.festiveknow.RoomApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.shanekelly.example.festiveknow.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shanekelly.example.festiveknow.RegisterActivity" />
+        <activity android:name="com.shanekelly.example.festiveknow.list.ListActivity" />
+        <activity android:name="com.shanekelly.example.festiveknow.detail.DetailActivity" />
+        <activity android:name="com.shanekelly.example.festiveknow.create.CreateActivity"></activity>
+    </application>
+
+</manifest>

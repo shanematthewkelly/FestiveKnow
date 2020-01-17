@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Welcome to FestiveKnow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Have you been to one of our listed Irish festivals? Let us know what you think with our personal blog app! Write a review or just a simple opinion and make changes whenever you feel like! All with the touch of one button. Having information about something beforehand is important to FestiveKnow!"
+            android:textColor="#fff"
+            android:layout_marginTop="22dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/readMoreButton"
+                android:layout_margin="10dp"
+                android:background="@drawable/login_button_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn More"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/joinUsButton"
+                android:layout_margin="10dp"
+                android:background="@drawable/login_button_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up today!"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/login_mail"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/darkgrey"
+            android:textColor="@color/darkgrey"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkgrey"
+            android:maxLines="1"
+            android:hint="Password"
+            android:textColorHint="@color/darkgrey"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_marginTop="35dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_button_style"
+            android:text="Login"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/ic_send_black_24dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

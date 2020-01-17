@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "516457117976",
+    "firebase_url": "https://festiveknow-master.firebaseio.com",
+    "project_id": "festiveknow-master",
+    "storage_bucket": "festiveknow-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516457117976:android:d8449fe3569c005112066d",
+        "android_client_info": {
+          "package_name": "roomdemo.wiseass.com.roomdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516457117976-26uhrsq4hrsnn07r5828a7vnu015abfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "roomdemo.wiseass.com.roomdemo",
+            "certificate_hash": "b17bb771ecd45eedc91a2d883595568b1ca07e83"
+          }
+        },
+        {
+          "client_id": "516457117976-0tdbp63ueoi5buc9uir37o152d5ldoqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhvK1lyP4mguHqBmDeZFnQ8nPaIlzP1vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516457117976-0tdbp63ueoi5buc9uir37o152d5ldoqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
